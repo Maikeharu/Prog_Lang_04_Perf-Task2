@@ -91,7 +91,7 @@ def main():
     """
     while True:
         try:
-            text = input("Enter an expression (or type 'exit' to end session.): ")
+            text = input("calc> ")
             if text.lower() == 'exit':
                 break
             interpreter = Interpreter(text.replace(' ', ''))
